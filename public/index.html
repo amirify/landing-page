@@ -7,10 +7,16 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
+  <header id="landing-page-header">
     <h1>Welcome to the Weather App</h1>
-    <button id="open-app">Check the Weather</button>
+    <button id="open-app-btn">Check the Weather</button>
   </header>
+  <main>
+    <div id="weather-app-container" class="app-hidden">
+      <button id="close-app-btn">Close</button>
+      <div id="root"></div>
+    </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
